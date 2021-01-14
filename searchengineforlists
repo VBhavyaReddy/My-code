@@ -1,0 +1,8 @@
+languages = ["Java" , "Python" , "C++" , "Javascript" , "Java" , "Python" , "C++" , "Javascript"]
+print("What language are you looking for?")
+lang  = input()
+for language in languages:
+    if language == lang:
+        print("We found " + lang)
+        continue
+    print(language + " , not this")
