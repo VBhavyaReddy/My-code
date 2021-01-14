@@ -16,11 +16,11 @@ print("Enter Your Friend's age: ")
 friends_age = int(input())
 print("Your Father's age is " + str(father_age))
 print("Your Mother's age is " + str(mother_age))
-print("Your Sister's age is " + str(sis_or_bro_age))
+print("Your Sister's / Brother's age is " + str(sis_or_bro_age))
 print("Your age is " + str(Your_age))
 print("Your Friend's Dad's age is " + str(friends_dads_age))
 print("Your Friend's Mom's age is " + str(friends_moms_age))
-print("Your Friend's Sister's age is " + str(friends_sis_or_bro_age)) 
+print("Your Friend's Sister's / Brother's age is " + str(friends_sis_or_bro_age)) 
 print("Your Friend's age is " + str(friends_age))
 w = mother_age - Your_age
 x = father_age - Your_age
