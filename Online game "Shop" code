@@ -1,0 +1,20 @@
+points = 50
+print("You have won the game! You can use your points to buy equipment from the shop!")
+print("Do you want to buy equipment from the shop? " + " Please answer using \"Yes / No\"")
+response = str(input())
+if response == "Yes":
+    print("Choose an item from the following list- " +"Note- All of the items cost 50 points each" + str(["Spade" , "Shovel" , "Pickaxe"]))
+    response2 = str(input())
+    points -= 50
+    print("You have " + str(points) + " points left")
+elif response ==  "No":
+    print("Okay, please continue with the game. If you want to buy any item next time, click on the shop button")
+if response == "yes":
+    print("Choose an item from the following list- " +"Note- All of the items cost 50 points each" + str(["Spade" , "Shovel" , "Pickaxe"]))
+    response2 = str(input())
+    points -= 50
+    print("You have " + str(points) + " points left")
+elif response == "no":
+    print("Okay, please continue with the game. If you want to buy any item next time, click on the shop button")
+print("If you've got no response, check the caps lock, if its on , try turning it off and do it again. You can reply using only \"Yes / No\". Ignore if completed.")
+#So , use this for shop section in your game. It will work better with buttons. Try it out and let me know...
